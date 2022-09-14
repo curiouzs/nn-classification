@@ -141,12 +141,8 @@ X_test_scaled[:,2] = scaler_age.transform(X_test[:,2].reshape(-1,1)).reshape(-1)
 # Creating the model
 ai_brain = Sequential([
     Dense(8,input_shape=(8,)),
-    Dense(10,activation='relu'),
-    Dense(12,activation='relu'),
     Dense(16,activation='relu'),
     Dense(32,activation='relu'),
-    Dense(64,activation='relu'),
-    Dense(128,activation='relu'),
     Dense(4,activation='softmax')
  
 ])
@@ -186,7 +182,7 @@ print(le.inverse_transform(x_single_prediction))
 
 
 ## Dataset Information
-https://user-images.githubusercontent.com/75235293/189539786-d54a02c2-f58e-42e5-b377-aa72ade11ae5.png
+![189541346-77d5341c-acb5-4f70-88d9-6643d55d3bea](https://user-images.githubusercontent.com/75234646/190152388-bd3b4e1d-726b-4d80-a1ab-1beabc2854cc.png)
 
 ## OUTPUT
 ### Training Loss, Validat![loss vs val](https://user-images.githubusercontent.com/75234646/190150361-45472c40-f7b0-411e-abf8-e125a1e31981.PNG)
