@@ -9,38 +9,27 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-
-Include the neural network model diagram.
+![networl](https://user-images.githubusercontent.com/75234646/190151759-f85c03f6-6c18-4374-b598-003528bd0db9.PNG)
 
 ## DESIGN STEPS
-
 ### STEP 1:
 Loading the dataset.
-
 ### STEP 2:
 Checking the null values and converting the string datatype into integer or float type using label encoder.
-
 ### STEP 3:
 Split the dataset into training and testing
-
 ### STEP 4:
 Create MinMaxScalar objects ,fit the model and transform the data.
-
 ### STEP 5:
 Build the Neural Network Model and compile the model.
-
 ### STEP 6:
 Train the model with the training data.
-
 ### STEP 7:
 Plot the training loss and validation loss. 
-
 ### STEP 8:
 Predicting the model through classification report, confusion matrix.
-
 ### STEP 9:
 Predict the new sample data.
-
 
 ## PROGRAM
 
@@ -197,27 +186,21 @@ print(le.inverse_transform(x_single_prediction))
 
 
 ## Dataset Information
-
-![image](https://user-images.githubusercontent.com/75235813/189538394-40eec53b-a6aa-4ea2-bc62-0631958cb7b1.png)
+https://user-images.githubusercontent.com/75235293/189539786-d54a02c2-f58e-42e5-b377-aa72ade11ae5.png
 
 ## OUTPUT
-
-### Training Loss, Validation Loss Vs Iteration Plot
-
-Include your plot here
+### Training Loss, Validat![loss vs val](https://user-images.githubusercontent.com/75234646/190150361-45472c40-f7b0-411e-abf8-e125a1e31981.PNG)
+ion Loss Vs Iteration Plot
 
 ### Classification Report
-
-Include Classification Report here
+![ckass report](https://user-images.githubusercontent.com/75234646/190150379-d4c1fc04-9d6e-4aa7-a42d-ed992fb880c9.PNG)
 
 ### Confusion Matrix
-
-Include confusion matrix here
-
+![conf matrx](https://user-images.githubusercontent.com/75234646/190150343-461eba66-072c-40a2-b70f-d7303309a3d7.PNG)
 
 ### New Sample Data Prediction
+![pred](https://user-images.githubusercontent.com/75234646/190150330-b017ed22-2774-4849-b13a-bebd044ccb69.PNG)
 
-Include your sample input and output here
 
 ## RESULT
 Thus,the neural network classification model for the given dataset is developed.
