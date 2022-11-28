@@ -1,8 +1,8 @@
-# Developing a Neural Network Classification Model
-
+## EXP.NO : 02
+## DATE   : 
+# <h1 align ="center">Developing a Neural Network Classification Model</h1>
 ## AIM
 To develop a neural network classification model for the given dataset.
-
 ## Problem Statement
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for a different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy for the new markets.
@@ -34,11 +34,8 @@ Predict the new sample data.
 ## PROGRAM
 
 ```python
-#Developed by: M Lokssh Krishnaa
+#Developed by: M Lokesh Krishnaa
 #Registration no.: 212220230030
-```
-
-```python
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
@@ -179,24 +176,16 @@ x_single_prediction = np.argmax(ai_brain.predict(X_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 ```
-
-
 ## Dataset Information
 ![189541346-77d5341c-acb5-4f70-88d9-6643d55d3bea](https://user-images.githubusercontent.com/75234646/190152388-bd3b4e1d-726b-4d80-a1ab-1beabc2854cc.png)
-
 ## OUTPUT
 ### Training Loss, Validat![loss vs val](https://user-images.githubusercontent.com/75234646/190150361-45472c40-f7b0-411e-abf8-e125a1e31981.PNG)
 ion Loss Vs Iteration Plot
-
 ### Classification Report
 ![ckass report](https://user-images.githubusercontent.com/75234646/190150379-d4c1fc04-9d6e-4aa7-a42d-ed992fb880c9.PNG)
-
 ### Confusion Matrix
 ![conf matrx](https://user-images.githubusercontent.com/75234646/190150343-461eba66-072c-40a2-b70f-d7303309a3d7.PNG)
-
 ### New Sample Data Prediction
 ![pred](https://user-images.githubusercontent.com/75234646/190150330-b017ed22-2774-4849-b13a-bebd044ccb69.PNG)
-
-
 ## RESULT
 Thus,the neural network classification model for the given dataset is developed.
